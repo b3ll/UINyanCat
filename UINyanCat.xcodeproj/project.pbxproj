@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6626A22016CA2520003A9681 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6626A21F16CA2520003A9681 /* QuartzCore.framework */; };
+		6626A22216CA26D0003A9681 /* Nyan-Cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6626A22116CA26D0003A9681 /* Nyan-Cat@2x.png */; };
+		6626A22416CA276B003A9681 /* Nyan-Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6626A22316CA276B003A9681 /* Nyan-Cat.png */; };
+		6626A22616CA27DD003A9681 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6626A22516CA27DD003A9681 /* Default-568h@2x.png */; };
+		6626A22816CA2992003A9681 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6626A22716CA2992003A9681 /* icon@2x.png */; };
+		66D9BC2A1587DAA6000D1C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9BC291587DAA6000D1C82 /* UIKit.framework */; };
+		66D9BC2C1587DAA6000D1C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9BC2B1587DAA6000D1C82 /* Foundation.framework */; };
+		66D9BC2E1587DAA6000D1C82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D9BC2D1587DAA6000D1C82 /* CoreGraphics.framework */; };
+		66D9BC341587DAA6000D1C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66D9BC321587DAA6000D1C82 /* InfoPlist.strings */; };
+		66D9BC361587DAA6000D1C82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9BC351587DAA6000D1C82 /* main.m */; };
+		66D9BC3A1587DAA6000D1C82 /* UINyanCatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9BC391587DAA6000D1C82 /* UINyanCatAppDelegate.m */; };
+		66D9BC3D1587DAA6000D1C82 /* UINyanCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9BC3C1587DAA6000D1C82 /* UINyanCatViewController.m */; };
+		66D9BC401587DAA6000D1C82 /* UINyanCatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D9BC3E1587DAA6000D1C82 /* UINyanCatViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6626A21F16CA2520003A9681 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6626A22116CA26D0003A9681 /* Nyan-Cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nyan-Cat@2x.png"; sourceTree = "<group>"; };
+		6626A22316CA276B003A9681 /* Nyan-Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nyan-Cat.png"; sourceTree = "<group>"; };
+		6626A22516CA27DD003A9681 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		6626A22716CA2992003A9681 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		66D9BC251587DAA6000D1C82 /* UINyanCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINyanCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D9BC291587DAA6000D1C82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66D9BC2B1587DAA6000D1C82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66D9BC2D1587DAA6000D1C82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66D9BC311587DAA6000D1C82 /* UINyanCat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINyanCat-Info.plist"; sourceTree = "<group>"; };
+		66D9BC331587DAA6000D1C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66D9BC351587DAA6000D1C82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66D9BC371587DAA6000D1C82 /* UINyanCat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINyanCat-Prefix.pch"; sourceTree = "<group>"; };
+		66D9BC381587DAA6000D1C82 /* UINyanCatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UINyanCatAppDelegate.h; sourceTree = "<group>"; };
+		66D9BC391587DAA6000D1C82 /* UINyanCatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINyanCatAppDelegate.m; sourceTree = "<group>"; };
+		66D9BC3B1587DAA6000D1C82 /* UINyanCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UINyanCatViewController.h; sourceTree = "<group>"; };
+		66D9BC3C1587DAA6000D1C82 /* UINyanCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINyanCatViewController.m; sourceTree = "<group>"; };
+		66D9BC3F1587DAA6000D1C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UINyanCatViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D9BC221587DAA6000D1C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6626A22016CA2520003A9681 /* QuartzCore.framework in Frameworks */,
+				66D9BC2A1587DAA6000D1C82 /* UIKit.framework in Frameworks */,
+				66D9BC2C1587DAA6000D1C82 /* Foundation.framework in Frameworks */,
+				66D9BC2E1587DAA6000D1C82 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D9BC1A1587DAA6000D1C82 = {
+			isa = PBXGroup;
+			children = (
+				66D9BC2F1587DAA6000D1C82 /* UINyanCat */,
+				66D9BC281587DAA6000D1C82 /* Frameworks */,
+				66D9BC261587DAA6000D1C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66D9BC261587DAA6000D1C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D9BC251587DAA6000D1C82 /* UINyanCat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D9BC281587DAA6000D1C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6626A21F16CA2520003A9681 /* QuartzCore.framework */,
+				66D9BC291587DAA6000D1C82 /* UIKit.framework */,
+				66D9BC2B1587DAA6000D1C82 /* Foundation.framework */,
+				66D9BC2D1587DAA6000D1C82 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66D9BC2F1587DAA6000D1C82 /* UINyanCat */ = {
+			isa = PBXGroup;
+			children = (
+				66D9BC381587DAA6000D1C82 /* UINyanCatAppDelegate.h */,
+				66D9BC391587DAA6000D1C82 /* UINyanCatAppDelegate.m */,
+				66D9BC3B1587DAA6000D1C82 /* UINyanCatViewController.h */,
+				66D9BC3C1587DAA6000D1C82 /* UINyanCatViewController.m */,
+				66D9BC3E1587DAA6000D1C82 /* UINyanCatViewController.xib */,
+				66D9BC301587DAA6000D1C82 /* Supporting Files */,
+			);
+			path = UINyanCat;
+			sourceTree = "<group>";
+		};
+		66D9BC301587DAA6000D1C82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6626A22716CA2992003A9681 /* icon@2x.png */,
+				6626A22516CA27DD003A9681 /* Default-568h@2x.png */,
+				6626A22116CA26D0003A9681 /* Nyan-Cat@2x.png */,
+				6626A22316CA276B003A9681 /* Nyan-Cat.png */,
+				66D9BC311587DAA6000D1C82 /* UINyanCat-Info.plist */,
+				66D9BC321587DAA6000D1C82 /* InfoPlist.strings */,
+				66D9BC351587DAA6000D1C82 /* main.m */,
+				66D9BC371587DAA6000D1C82 /* UINyanCat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D9BC241587DAA6000D1C82 /* UINyanCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D9BC431587DAA6000D1C82 /* Build configuration list for PBXNativeTarget "UINyanCat" */;
+			buildPhases = (
+				66D9BC211587DAA6000D1C82 /* Sources */,
+				66D9BC221587DAA6000D1C82 /* Frameworks */,
+				66D9BC231587DAA6000D1C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UINyanCat;
+			productName = UINyanCat;
+			productReference = 66D9BC251587DAA6000D1C82 /* UINyanCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D9BC1C1587DAA6000D1C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Adam Bell";
+			};
+			buildConfigurationList = 66D9BC1F1587DAA6000D1C82 /* Build configuration list for PBXProject "UINyanCat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66D9BC1A1587DAA6000D1C82;
+			productRefGroup = 66D9BC261587DAA6000D1C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D9BC241587DAA6000D1C82 /* UINyanCat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D9BC231587DAA6000D1C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D9BC341587DAA6000D1C82 /* InfoPlist.strings in Resources */,
+				66D9BC401587DAA6000D1C82 /* UINyanCatViewController.xib in Resources */,
+				6626A22216CA26D0003A9681 /* Nyan-Cat@2x.png in Resources */,
+				6626A22416CA276B003A9681 /* Nyan-Cat.png in Resources */,
+				6626A22616CA27DD003A9681 /* Default-568h@2x.png in Resources */,
+				6626A22816CA2992003A9681 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D9BC211587DAA6000D1C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D9BC361587DAA6000D1C82 /* main.m in Sources */,
+				66D9BC3A1587DAA6000D1C82 /* UINyanCatAppDelegate.m in Sources */,
+				66D9BC3D1587DAA6000D1C82 /* UINyanCatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66D9BC321587DAA6000D1C82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D9BC331587DAA6000D1C82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66D9BC3E1587DAA6000D1C82 /* UINyanCatViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D9BC3F1587DAA6000D1C82 /* en */,
+			);
+			name = UINyanCatViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66D9BC411587DAA6000D1C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66D9BC421587DAA6000D1C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D9BC441587DAA6000D1C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINyanCat/UINyanCat-Prefix.pch";
+				INFOPLIST_FILE = "UINyanCat/UINyanCat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66D9BC451587DAA6000D1C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UINyanCat/UINyanCat-Prefix.pch";
+				INFOPLIST_FILE = "UINyanCat/UINyanCat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D9BC1F1587DAA6000D1C82 /* Build configuration list for PBXProject "UINyanCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D9BC411587DAA6000D1C82 /* Debug */,
+				66D9BC421587DAA6000D1C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D9BC431587DAA6000D1C82 /* Build configuration list for PBXNativeTarget "UINyanCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D9BC441587DAA6000D1C82 /* Debug */,
+				66D9BC451587DAA6000D1C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D9BC1C1587DAA6000D1C82 /* Project object */;
+}
